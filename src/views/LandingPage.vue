@@ -2,16 +2,20 @@
   <div class="landing">
     <main-header></main-header>
     <main-hero></main-hero>
+    <about-restaurant></about-restaurant>
   </div>
 </template>
 
 <script>
 import MainHeader from "@/components/MainHeader.vue";
 import MainHero from "@/components/MainHero.vue";
+import AboutRestaurant from "@/components/AboutRestaurant.vue";
+
 export default {
   components: {
     MainHeader,
-    MainHero
+    MainHero,
+    AboutRestaurant,
   },
 };
 </script>
@@ -21,7 +25,8 @@ export default {
 .landing {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   font-family: Poppins;
+  align-items: center;
 }
 </style>

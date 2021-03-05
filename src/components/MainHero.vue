@@ -11,7 +11,6 @@
       <div class="hero-image-container">
         <div class="hero-image">
           <img src="@/assets/food1.png" alt="" />
-          <img src="@/assets/salad.png" class="salad" />
         </div>
       </div>
     </div>
@@ -86,13 +85,7 @@ export default {};
         position: relative;
         img {
           z-index: 2;
-          width: 70%;
-        }
-        .salad {
-          z-index: 1;
-          position: absolute;
-          width: 60%;
-          top: -100px;
+          width: 100%;
         }
       }
     }
