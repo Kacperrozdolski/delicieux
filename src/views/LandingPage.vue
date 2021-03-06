@@ -2,20 +2,23 @@
   <div class="landing">
     <main-header></main-header>
     <main-hero></main-hero>
-    <about-restaurant></about-restaurant>
+    <about-section></about-section>
+    <booking-section></booking-section>
   </div>
 </template>
 
 <script>
 import MainHeader from "@/components/MainHeader.vue";
 import MainHero from "@/components/MainHero.vue";
-import AboutRestaurant from "@/components/AboutRestaurant.vue";
+import AboutSection from "@/components/AboutSection.vue";
+import BookingSection from "@/components/BookingSection.vue";
 
 export default {
   components: {
     MainHeader,
     MainHero,
-    AboutRestaurant,
+    AboutSection,
+    BookingSection,
   },
 };
 </script>
